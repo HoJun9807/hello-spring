@@ -6,7 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import org.springframework.stereotype.Repository;
 
+//@Repository
 public class MemoryMemberRepository implements MemberRepository{
     // 회원 저장소 구현 클래스 (리포지토리 클래스) -> 회원 정보를 저장하는 저장소 구현 클래스 (메모리 저장소)
 
